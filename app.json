@@ -1,10 +1,10 @@
 {
   "dokku": {
-    "plugins": [],
+    "plugins": ["storage"],
       "volumes": [
         {
-          "host": "/var/lib/dokku/data/storage/$APP/pb_data",
-          "app": "/pb_data",
+          "host": "/var/lib/dokku/data/storage/$APP/storage",
+          "app": "/storage",
           "phases": "deploy,run"
         }
       ]
