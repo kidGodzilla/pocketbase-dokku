@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dokku": {
-      "predeploy": "./pocketbase serve"
+      "release": "./pocketbase serve & exit"
     }
   }
 }
