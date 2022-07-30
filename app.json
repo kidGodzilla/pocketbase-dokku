@@ -1,0 +1,17 @@
+{
+  "dokku": {
+    "plugins": [],
+      "volumes": [
+        {
+          "host": "/var/lib/dokku/data/storage/$APP/pb_data",
+          "app": "/pb_data",
+          "phases": "deploy,run"
+        }
+      ]
+  },
+  "scripts": {
+    "dokku": {
+      "postdeploy": "./pocketbase serve"
+    }
+  }
+}
