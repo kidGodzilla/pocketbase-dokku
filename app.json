@@ -11,7 +11,7 @@
   },
   "scripts": {
     "dokku": {
-      "postdeploy": "./pocketbase serve"
+      "predeploy": "./pocketbase serve"
     }
   }
 }
