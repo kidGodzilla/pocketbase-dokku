@@ -1,1 +1,1 @@
-web: ./pocketbase serve -http 0.0.0.0:5000
+web: ./pocketbase serve --http 0.0.0.0:5000
