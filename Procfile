@@ -1,1 +1,1 @@
-web: ./pocketbase serve --http 0.0.0.0:5000 --dir /public
+web: ./pocketbase serve --http 0.0.0.0:5000 --dir /storage
