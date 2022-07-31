@@ -12,5 +12,5 @@ dokku domains:add pocketbase pocketbase.domain.name
 
 dokku storage:mount pocketbase /var/lib/dokku/data/storage/pocketbase:/storage
 
-dokku git:sync pocketbase https://github.com/kidGodzilla/pocketbase.git main --build
+dokku git:sync pocketbase https://github.com/kidGodzilla/pocketbase-dokku.git main --build
 ```
